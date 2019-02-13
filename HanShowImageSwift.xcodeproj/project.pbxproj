@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9137BE9E2212CD0400EAF6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137BE9D2212CD0400EAF6DF /* AppDelegate.swift */; };
+		9137BEA02212CD0400EAF6DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137BE9F2212CD0400EAF6DF /* ViewController.swift */; };
+		9137BEA32212CD0400EAF6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9137BEA12212CD0400EAF6DF /* Main.storyboard */; };
+		9137BEA52212CD0500EAF6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9137BEA42212CD0500EAF6DF /* Assets.xcassets */; };
+		9137BEA82212CD0500EAF6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9137BEA62212CD0500EAF6DF /* LaunchScreen.storyboard */; };
+		9137BEB32212CD0600EAF6DF /* HanShowImageSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137BEB22212CD0600EAF6DF /* HanShowImageSwiftTests.swift */; };
+		9137BEBE2212CD0600EAF6DF /* HanShowImageSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137BEBD2212CD0600EAF6DF /* HanShowImageSwiftUITests.swift */; };
+		9137BECC2212D0C100EAF6DF /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9137BECB2212D0C100EAF6DF /* 6.png */; };
+		914FB8582213AC4300BAD3B1 /* HanZoomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB8572213AC4300BAD3B1 /* HanZoomScrollView.swift */; };
+		914FB85A2213B4FD00BAD3B1 /* HanZoomTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB8592213B4FD00BAD3B1 /* HanZoomTools.swift */; };
+		914FB85C2213BC3800BAD3B1 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB85B2213BC3800BAD3B1 /* ViewController1.swift */; };
+		914FB8622213FC0A00BAD3B1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 914FB85D2213FC0A00BAD3B1 /* 1.png */; };
+		914FB8632213FC0A00BAD3B1 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 914FB85E2213FC0A00BAD3B1 /* 3.png */; };
+		914FB8642213FC0A00BAD3B1 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 914FB85F2213FC0A00BAD3B1 /* 5.png */; };
+		914FB8652213FC0A00BAD3B1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 914FB8602213FC0A00BAD3B1 /* 2.png */; };
+		914FB8662213FC0A00BAD3B1 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 914FB8612213FC0A00BAD3B1 /* 4.png */; };
+		914FB8682213FC5400BAD3B1 /* HanZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB8672213FC5400BAD3B1 /* HanZoomView.swift */; };
+		914FB86A22141A2300BAD3B1 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 914FB86922141A2300BAD3B1 /* 7.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9137BEAF2212CD0500EAF6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9137BE922212CD0400EAF6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9137BE992212CD0400EAF6DF;
+			remoteInfo = HanShowImageSwift;
+		};
+		9137BEBA2212CD0600EAF6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9137BE922212CD0400EAF6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9137BE992212CD0400EAF6DF;
+			remoteInfo = HanShowImageSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9137BE9A2212CD0400EAF6DF /* HanShowImageSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanShowImageSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9137BE9D2212CD0400EAF6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9137BE9F2212CD0400EAF6DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9137BEA22212CD0400EAF6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9137BEA42212CD0500EAF6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9137BEA72212CD0500EAF6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9137BEA92212CD0500EAF6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9137BEAE2212CD0500EAF6DF /* HanShowImageSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanShowImageSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9137BEB22212CD0600EAF6DF /* HanShowImageSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanShowImageSwiftTests.swift; sourceTree = "<group>"; };
+		9137BEB42212CD0600EAF6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9137BEB92212CD0600EAF6DF /* HanShowImageSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanShowImageSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9137BEBD2212CD0600EAF6DF /* HanShowImageSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanShowImageSwiftUITests.swift; sourceTree = "<group>"; };
+		9137BEBF2212CD0600EAF6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9137BECB2212D0C100EAF6DF /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		914FB8572213AC4300BAD3B1 /* HanZoomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanZoomScrollView.swift; sourceTree = "<group>"; };
+		914FB8592213B4FD00BAD3B1 /* HanZoomTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanZoomTools.swift; sourceTree = "<group>"; };
+		914FB85B2213BC3800BAD3B1 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		914FB85D2213FC0A00BAD3B1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		914FB85E2213FC0A00BAD3B1 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		914FB85F2213FC0A00BAD3B1 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		914FB8602213FC0A00BAD3B1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		914FB8612213FC0A00BAD3B1 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		914FB8672213FC5400BAD3B1 /* HanZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanZoomView.swift; sourceTree = "<group>"; };
+		914FB86922141A2300BAD3B1 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9137BE972212CD0400EAF6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137BEAB2212CD0500EAF6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137BEB62212CD0600EAF6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9137BE912212CD0400EAF6DF = {
+			isa = PBXGroup;
+			children = (
+				9137BE9C2212CD0400EAF6DF /* HanShowImageSwift */,
+				9137BEB12212CD0500EAF6DF /* HanShowImageSwiftTests */,
+				9137BEBC2212CD0600EAF6DF /* HanShowImageSwiftUITests */,
+				9137BE9B2212CD0400EAF6DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9137BE9B2212CD0400EAF6DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9137BE9A2212CD0400EAF6DF /* HanShowImageSwift.app */,
+				9137BEAE2212CD0500EAF6DF /* HanShowImageSwiftTests.xctest */,
+				9137BEB92212CD0600EAF6DF /* HanShowImageSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9137BE9C2212CD0400EAF6DF /* HanShowImageSwift */ = {
+			isa = PBXGroup;
+			children = (
+				914FB8562213ABD400BAD3B1 /* HanZoomImage */,
+				914FB85D2213FC0A00BAD3B1 /* 1.png */,
+				914FB8602213FC0A00BAD3B1 /* 2.png */,
+				914FB85E2213FC0A00BAD3B1 /* 3.png */,
+				914FB8612213FC0A00BAD3B1 /* 4.png */,
+				914FB85F2213FC0A00BAD3B1 /* 5.png */,
+				9137BECB2212D0C100EAF6DF /* 6.png */,
+				914FB86922141A2300BAD3B1 /* 7.png */,
+				9137BE9D2212CD0400EAF6DF /* AppDelegate.swift */,
+				9137BE9F2212CD0400EAF6DF /* ViewController.swift */,
+				914FB85B2213BC3800BAD3B1 /* ViewController1.swift */,
+				9137BEA12212CD0400EAF6DF /* Main.storyboard */,
+				9137BEA42212CD0500EAF6DF /* Assets.xcassets */,
+				9137BEA62212CD0500EAF6DF /* LaunchScreen.storyboard */,
+				9137BEA92212CD0500EAF6DF /* Info.plist */,
+			);
+			path = HanShowImageSwift;
+			sourceTree = "<group>";
+		};
+		9137BEB12212CD0500EAF6DF /* HanShowImageSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				9137BEB22212CD0600EAF6DF /* HanShowImageSwiftTests.swift */,
+				9137BEB42212CD0600EAF6DF /* Info.plist */,
+			);
+			path = HanShowImageSwiftTests;
+			sourceTree = "<group>";
+		};
+		9137BEBC2212CD0600EAF6DF /* HanShowImageSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9137BEBD2212CD0600EAF6DF /* HanShowImageSwiftUITests.swift */,
+				9137BEBF2212CD0600EAF6DF /* Info.plist */,
+			);
+			path = HanShowImageSwiftUITests;
+			sourceTree = "<group>";
+		};
+		914FB8562213ABD400BAD3B1 /* HanZoomImage */ = {
+			isa = PBXGroup;
+			children = (
+				914FB8572213AC4300BAD3B1 /* HanZoomScrollView.swift */,
+				914FB8592213B4FD00BAD3B1 /* HanZoomTools.swift */,
+				914FB8672213FC5400BAD3B1 /* HanZoomView.swift */,
+			);
+			path = HanZoomImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9137BE992212CD0400EAF6DF /* HanShowImageSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9137BEC22212CD0600EAF6DF /* Build configuration list for PBXNativeTarget "HanShowImageSwift" */;
+			buildPhases = (
+				9137BE962212CD0400EAF6DF /* Sources */,
+				9137BE972212CD0400EAF6DF /* Frameworks */,
+				9137BE982212CD0400EAF6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanShowImageSwift;
+			productName = HanShowImageSwift;
+			productReference = 9137BE9A2212CD0400EAF6DF /* HanShowImageSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9137BEAD2212CD0500EAF6DF /* HanShowImageSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9137BEC52212CD0600EAF6DF /* Build configuration list for PBXNativeTarget "HanShowImageSwiftTests" */;
+			buildPhases = (
+				9137BEAA2212CD0500EAF6DF /* Sources */,
+				9137BEAB2212CD0500EAF6DF /* Frameworks */,
+				9137BEAC2212CD0500EAF6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9137BEB02212CD0500EAF6DF /* PBXTargetDependency */,
+			);
+			name = HanShowImageSwiftTests;
+			productName = HanShowImageSwiftTests;
+			productReference = 9137BEAE2212CD0500EAF6DF /* HanShowImageSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9137BEB82212CD0600EAF6DF /* HanShowImageSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9137BEC82212CD0600EAF6DF /* Build configuration list for PBXNativeTarget "HanShowImageSwiftUITests" */;
+			buildPhases = (
+				9137BEB52212CD0600EAF6DF /* Sources */,
+				9137BEB62212CD0600EAF6DF /* Frameworks */,
+				9137BEB72212CD0600EAF6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9137BEBB2212CD0600EAF6DF /* PBXTargetDependency */,
+			);
+			name = HanShowImageSwiftUITests;
+			productName = HanShowImageSwiftUITests;
+			productReference = 9137BEB92212CD0600EAF6DF /* HanShowImageSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9137BE922212CD0400EAF6DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Han;
+				TargetAttributes = {
+					9137BE992212CD0400EAF6DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9137BEAD2212CD0500EAF6DF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9137BE992212CD0400EAF6DF;
+					};
+					9137BEB82212CD0600EAF6DF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9137BE992212CD0400EAF6DF;
+					};
+				};
+			};
+			buildConfigurationList = 9137BE952212CD0400EAF6DF /* Build configuration list for PBXProject "HanShowImageSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9137BE912212CD0400EAF6DF;
+			productRefGroup = 9137BE9B2212CD0400EAF6DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9137BE992212CD0400EAF6DF /* HanShowImageSwift */,
+				9137BEAD2212CD0500EAF6DF /* HanShowImageSwiftTests */,
+				9137BEB82212CD0600EAF6DF /* HanShowImageSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9137BE982212CD0400EAF6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914FB8662213FC0A00BAD3B1 /* 4.png in Resources */,
+				9137BEA82212CD0500EAF6DF /* LaunchScreen.storyboard in Resources */,
+				9137BEA52212CD0500EAF6DF /* Assets.xcassets in Resources */,
+				914FB8652213FC0A00BAD3B1 /* 2.png in Resources */,
+				9137BECC2212D0C100EAF6DF /* 6.png in Resources */,
+				914FB8632213FC0A00BAD3B1 /* 3.png in Resources */,
+				914FB8642213FC0A00BAD3B1 /* 5.png in Resources */,
+				914FB86A22141A2300BAD3B1 /* 7.png in Resources */,
+				9137BEA32212CD0400EAF6DF /* Main.storyboard in Resources */,
+				914FB8622213FC0A00BAD3B1 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137BEAC2212CD0500EAF6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137BEB72212CD0600EAF6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9137BE962212CD0400EAF6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914FB8582213AC4300BAD3B1 /* HanZoomScrollView.swift in Sources */,
+				914FB85C2213BC3800BAD3B1 /* ViewController1.swift in Sources */,
+				9137BEA02212CD0400EAF6DF /* ViewController.swift in Sources */,
+				914FB8682213FC5400BAD3B1 /* HanZoomView.swift in Sources */,
+				914FB85A2213B4FD00BAD3B1 /* HanZoomTools.swift in Sources */,
+				9137BE9E2212CD0400EAF6DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137BEAA2212CD0500EAF6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9137BEB32212CD0600EAF6DF /* HanShowImageSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137BEB52212CD0600EAF6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9137BEBE2212CD0600EAF6DF /* HanShowImageSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9137BEB02212CD0500EAF6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9137BE992212CD0400EAF6DF /* HanShowImageSwift */;
+			targetProxy = 9137BEAF2212CD0500EAF6DF /* PBXContainerItemProxy */;
+		};
+		9137BEBB2212CD0600EAF6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9137BE992212CD0400EAF6DF /* HanShowImageSwift */;
+			targetProxy = 9137BEBA2212CD0600EAF6DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9137BEA12212CD0400EAF6DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9137BEA22212CD0400EAF6DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9137BEA62212CD0500EAF6DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9137BEA72212CD0500EAF6DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9137BEC02212CD0600EAF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9137BEC12212CD0600EAF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9137BEC32212CD0600EAF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26BV79SFL;
+				INFOPLIST_FILE = HanShowImageSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.hqPay.HanShowImageSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9137BEC42212CD0600EAF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26BV79SFL;
+				INFOPLIST_FILE = HanShowImageSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.hqPay.HanShowImageSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9137BEC62212CD0600EAF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26BV79SFL;
+				INFOPLIST_FILE = HanShowImageSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.hqPay.HanShowImageSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanShowImageSwift.app/HanShowImageSwift";
+			};
+			name = Debug;
+		};
+		9137BEC72212CD0600EAF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26BV79SFL;
+				INFOPLIST_FILE = HanShowImageSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.hqPay.HanShowImageSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanShowImageSwift.app/HanShowImageSwift";
+			};
+			name = Release;
+		};
+		9137BEC92212CD0600EAF6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26BV79SFL;
+				INFOPLIST_FILE = HanShowImageSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.hqPay.HanShowImageSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanShowImageSwift;
+			};
+			name = Debug;
+		};
+		9137BECA2212CD0600EAF6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26BV79SFL;
+				INFOPLIST_FILE = HanShowImageSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.hqPay.HanShowImageSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanShowImageSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9137BE952212CD0400EAF6DF /* Build configuration list for PBXProject "HanShowImageSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9137BEC02212CD0600EAF6DF /* Debug */,
+				9137BEC12212CD0600EAF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9137BEC22212CD0600EAF6DF /* Build configuration list for PBXNativeTarget "HanShowImageSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9137BEC32212CD0600EAF6DF /* Debug */,
+				9137BEC42212CD0600EAF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9137BEC52212CD0600EAF6DF /* Build configuration list for PBXNativeTarget "HanShowImageSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9137BEC62212CD0600EAF6DF /* Debug */,
+				9137BEC72212CD0600EAF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9137BEC82212CD0600EAF6DF /* Build configuration list for PBXNativeTarget "HanShowImageSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9137BEC92212CD0600EAF6DF /* Debug */,
+				9137BECA2212CD0600EAF6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9137BE922212CD0400EAF6DF /* Project object */;
+}
