@@ -23,21 +23,40 @@ class HanZoomScrollView: UIScrollView {
         didSet{
             if url != nil{
 
-                let data = NSData.init(contentsOf: URL.init(string: url!)!)
-                if data == nil{
-                    self.createImagView(image: UIImage.init(named: "4") ?? UIImage())
-                    self.setZoomScale()
-                    return
+                self.createImagView(image: UIImage.init(named: "4") ?? UIImage())
+                DispatchQueue.global().async {
+                    let data = NSData.init(contentsOf: URL.init(string: self.url!)!)
+                    if data == nil{
+                        DispatchQueue.main.async {
+                            self.createImagView(image: UIImage.init(named: "4") ?? UIImage())
+                            self.setZoomScale()
+                        }
+                        
+                        
+                        return
+                    }
+                    let image = UIImage.init(data: data! as Data)
+                    
+                    if image == nil{
+                        DispatchQueue.main.async {
+                            self.createImagView(image: UIImage.init(named: "44") ?? UIImage())
+                            self.setZoomScale()
+                        }
+                        return
+                    }
+                    DispatchQueue.main.async {
+                        self.createImagView(image: image!)
+                        self.setZoomScale()
+                    }
                 }
-                let image = UIImage.init(data: data! as Data)
                 
-                if image == nil{
-                    self.createImagView(image: UIImage.init(named: "4") ?? UIImage())
-                    self.setZoomScale()
-                    return
-                }
-                self.createImagView(image: image!)
-                self.setZoomScale()
+                /*
+                 ============= 如果想用 SDWebImage 注释上边的代码  改为下面的 ============
+                 self.createImagView(image: UIImage())
+                 self.setZoomScale()
+                 
+                 */
+
             }
         }
     }
@@ -76,24 +95,74 @@ class HanZoomScrollView: UIScrollView {
     
     /// 创建imageView
     func createImagView(image:UIImage) {
-        let imaView = UIImageView()
-        let size = image.getImageSize(view:self)
-        imaView.bounds = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
-        imaView.center = CGPoint.init(x: self.bounds.size.width/2 , y: self.bounds.size.height/2)
-        imaView.image = image
-        imaView.isUserInteractionEnabled = true
-        self.addSubview(imaView)
 
-        self.imageView = imaView
-        self.contentSize = self.imageView.bounds.size
+        
+        if self.imageView == nil{
+            self.imageView = UIImageView()
+            
+            self.imageView?.isUserInteractionEnabled = true
+            self.addSubview(self.imageView!)
+            
+            let moreTap = UITapGestureRecognizer.init(target:self, action: #selector(handleMoreTap(tap:)))
+            moreTap.numberOfTapsRequired =  2//触发响应的点击次数
+            self.imageView?.addGestureRecognizer(moreTap)
+        }
+       
+        let size = image.getImageSize(view:self)
+        self.imageView?.bounds = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
+        self.imageView?.center = CGPoint.init(x: self.bounds.size.width/2 , y: self.bounds.size.height/2)
+        
+        self.imageView?.image = image
+        
+        self.contentSize = self.imageView?.bounds.size ?? CGSize.zero
         
         self.normalWidth = self.contentSize.width
         self.normalHeight = self.contentSize.height
         
         
-        let moreTap = UITapGestureRecognizer.init(target:self, action: #selector(handleMoreTap(tap:)))
-        moreTap.numberOfTapsRequired =  2//触发响应的点击次数
-        imaView.addGestureRecognizer(moreTap)
+      
+      /*
+         ============= 如果想用 SDWebImage 注释上边的代码  改为下面的 ============
+         
+         
+        if self.imageView == nil{
+            self.imageView = UIImageView()
+            
+            self.imageView?.isUserInteractionEnabled = true
+            self.addSubview(self.imageView!)
+            
+            let moreTap = UITapGestureRecognizer.init(target:self, action: #selector(handleMoreTap(tap:)))
+            moreTap.numberOfTapsRequired =  2//触发响应的点击次数
+            self.imageView?.addGestureRecognizer(moreTap)
+        }
+        if self.url != nil {
+            self.imageView?.sd_setImage(with: URL.init(string: self.url!)!, placeholderImage: UIImage.init(named: "datadpload_photos"), options: [], completed: { (image1, error, cacheMemoryOnly, url) in
+                if error == nil{
+                    let size = image1?.getImageSize(view:self) ?? CGSize.zero
+                    self.imageView?.bounds = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
+                    self.imageView?.center = CGPoint.init(x: self.bounds.size.width/2 , y: self.bounds.size.height/2)
+                    
+                    self.imageView?.image = image1
+                    
+                    self.contentSize = self.imageView?.bounds.size ?? CGSize.zero
+                    
+                    self.normalWidth = self.contentSize.width
+                    self.normalHeight = self.contentSize.height
+                }
+            })
+        }else{
+            let size = image.getImageSize(view:self)
+            self.imageView?.bounds = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
+            self.imageView?.center = CGPoint.init(x: self.bounds.size.width/2 , y: self.bounds.size.height/2)
+            
+            self.imageView?.image = image
+            
+            self.contentSize = self.imageView?.bounds.size ?? CGSize.zero
+            
+            self.normalWidth = self.contentSize.width
+            self.normalHeight = self.contentSize.height
+        }
+         */
 
         
     }
